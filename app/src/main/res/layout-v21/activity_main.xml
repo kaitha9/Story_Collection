@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="The Forest Tales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        style="@android:style/Widget.Material.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="401dp"
+        android:scrollbarStyle="insideInset">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="There was once a wicked Duke named Frederick, who took the dukedom that should have belonged to his brother, sending him into exile. His brother went into the Forest of Arden, where he lived the life of a bold forester, as Robin Hood did in Sherwood Forest in merry England.The banished Duke's daughter, Rosalind, remained with Celia, Frederick's daughter, and the two loved each other more than most sisters. One day there was a wrestling match at Court, and Rosalind and Celia went to see it. Charles, a celebrated wrestler, was there, who had killed many men in contests of this kind. Orlando, the young man he was to wrestle with, was so slender and youthful, that Rosalind and Celia thought he would surely be killed, as others had been; so they spoke to him, and asked him not to attempt so dangerous an adventure; but the only effect of their words was to make him wish more to come off well in the encounter, so as to win praise from such sweet ladies.  Orlando, like Rosalind's father, was being kept out of his inheritance by his brother, and was so sad at his brother's unkindness that, until he saw Rosalind, he did not care much whether he lived or died. But now the sight of the fair Rosalind gave him strength and courage, so that he did marvelously, and at last, threw Charles to such a tune, that the wrestler had to be carried off the ground. Duke Frederick was pleased with his courage, and asked his name.  “My name is Orlando, and I am the youngest son of Sir Rowland de Boys,” said the young man.  Now Sir Rowland de Boys, when he was alive, had been a good friend to the banished Duke, so that Frederick heard with regret whose son Orlando was, and would not befriend him. But Rosalind was delighted to hear that this handsome young stranger was the son of her father's old friend, and as they were going away, she turned back more than once to say another kind word to the brave young man.  “Gentleman,” she said, giving him a chain from her neck, “wear this for me. I could give more, but that my hand lacks means.”  Rosalind and Celia, when they were alone, began to talk about the handsome wrestler, and Rosalind confessed that she loved him at first sight.  “Come, come,” said Celia, “wrestle with thy affections.”  “Oh,” answered Rosalind, “they take the part of a better wrestler than myself. Look, here comes the Duke.”  “With his eyes full of anger,” said Celia.  “You must leave the Court at once,” he said to Rosalind. “Why?” she asked. Then Rosalind and Celia went out, and Rosalind put on her pretty woman's clothes again, and after a while came back.  She turned to her father--“I give myself to you, for I am yours.” “If there be truth in sight,” he said, “you are my daughter.”  Then she said to Orlando, “I give myself to you, for I am yours.” “If there be truth in sight,” he said, “you are my Rosalind.”  “I will have no father if you be not he,” she said to the Duke, and to Orlando, “I will have no husband if you be not he.”  So Orlando and Rosalind were married, and Oliver and Celia, and they lived happy ever after, returning with the Duke to the kingdom. For Frederick had been shown by a holy hermit the wickedness of his ways, and so gave back the dukedom of his brother, and himself went into a monastery to pray for forgiveness.  The wedding was a merry one, in the mossy glades of the forest. A shepherd and shepherdess who had been friends with Rosalind, when she was herself disguised as a shepherd, were married on the same day, and all with such pretty feastings and merrymakings as could be nowhere within four walls, but only in the beautiful green wood.   " />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed to next story" />
+
+
+</LinearLayout>
